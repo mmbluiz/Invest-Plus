@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #001b2a !important;
+}
+
+.navbar .navbar-nav li a {
+    color: goldenrod !important;
+}
+
+.navbar-toggler-icon{
+    color: #efefef;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item {
+    color: goldenrod !important;
+}
+
+body {
+    background-image:url('../images/house-front-fullHD.jpg');
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+h3, h2, p {
+    text-align: center;
+}
+
+/* Contact */
+
+#contact{
+    padding: 5rem 0;
+    position: center;
+}
