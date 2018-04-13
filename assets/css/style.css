@@ -60,6 +60,15 @@ body, html {
     margin: 10% 0;
 }
 
+h6 {
+    font-size: 30px;
+}
+
+a {
+    font-size: 30px;
+    color: goldenrod;
+}
+
 
 
 .navbar .nav-item .dropdown-menu .dropdown-item {
