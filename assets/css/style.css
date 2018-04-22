@@ -3,9 +3,30 @@ body, html {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+@media(max-width:768px) {
+    #header {
+        text-align:center;
+    }
+    #header img {
+        margin:0 auto;
+    }
+    #social {
+        text-align:center;
+    }
+    #social hr, #about hr{
+        margin:8% auto;
+    }
+    #about {
+        text-align: center;
+    }
+    #about img {
+        margin-top: 15%;
+    }
+}
+
 .navbar{
     /* background-color:rgba(21, 31, 33, 0.2); */
-    background-color: #001b2a;
+    background-color: #001b2a; 
     border-bottom: 1px solid #efefef;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -26,7 +47,7 @@ body, html {
 /* HEADER */
 
 #header {
-    background-image:url('../images/house-front-fullHD.jpg');
+    background-image:url('../images/beach.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -65,15 +86,61 @@ h6 {
 }
 
 a {
-    font-size: 30px;
     color: goldenrod;
 }
-
-
 
 .navbar .nav-item .dropdown-menu .dropdown-item {
     color: goldenrod !important;
 }
+
+
+/* SOCIAL */
+
+#social {
+    padding: 4.25rem 0;
+    color: #001b2a;
+}
+
+#social .list-inline-item {
+    font-size: 1.5em;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    text-align: center;
+    padding: 2% 0; 
+    margin-top:10px;
+    transition:all 0.4s ease-in-out;
+}
+
+
+#social .list-inline-item:hover {
+    color:goldenrod;
+    background:#001b2a;
+}
+
+/* ABOUT */
+
+#about {
+    padding:5rem 0;
+    background-color:#f6f6f6;
+}
+
+#about .btn-who {
+    background-color: #001b2a;
+    color: goldenrod;
+    width: 50%;
+}
+
+#about .btn-who:hover {
+    background-color: transparent;
+    border:1px solid #001b2a;
+    width: 50%;
+}
+
+
+
 
 /* body {
     background-image:url('../images/house-front-fullHD.jpg');
