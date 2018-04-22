@@ -1,6 +1,11 @@
 body, html {
     height: 100%;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
 }
 
 @media(max-width:768px) {
@@ -21,6 +26,9 @@ body, html {
     }
     #about img {
         margin-top: 15%;
+    }
+    #footer {
+        text-align: center;
     }
 }
 
@@ -94,6 +102,8 @@ a {
 }
 
 
+
+
 /* SOCIAL */
 
 #social {
@@ -127,6 +137,10 @@ a {
     background-color:#f6f6f6;
 }
 
+#about img {
+    padding-top: 10%;
+}
+
 #about .btn-who {
     background-color: #001b2a;
     color: goldenrod;
@@ -139,6 +153,71 @@ a {
     width: 50%;
 }
 
+/* WHY */
+
+#why {
+    padding:5rem 0;
+    /* background-color:#f6f6f6; */
+}
+
+#why, .fas {
+    color: goldenrod !important;
+    padding: 5rem 0 !important;
+}
+
+#why h2, p {
+    color: #001b2a;
+}
+
+/*CUSTOMERS*/
+
+#customers {
+    padding: 5rem 0;
+    background-color: #f6f6f6;
+}
+
+#customers .carousel-indicators li {
+    background-color: goldenrod;
+}
+
+#customers .carousel-inner {
+    margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+    margin-bottom: -50px;
+}
+
+/*CONTACT*/
+
+#contact {
+    padding:5rem 0;
+    color: #001b2a;
+}
+
+#contact .btn-block {
+    background-color: #001b2a;
+    color: goldenrod;
+}
+
+#contact .btn-block:hover {
+    background-color: transparent;
+    border:1px solid #001b2a;
+}
+
+/* FOOTER */
+
+#footer {
+    padding:2rem 0;
+    background-color:#001b2a;
+    color:white !important; 
+}
+#footer p {
+    color: white;
+}
+#footer .fa {
+    padding:0 5px;
+}
 
 
 
