@@ -89,6 +89,11 @@ body, html {
     margin: 10% 0;
 }
 
+#header p {
+    color: white;
+    font-size: 20px;
+}
+
 h6 {
     font-size: 30px;
 }
