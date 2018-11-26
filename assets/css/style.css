@@ -27,6 +27,18 @@ body, html {
     #about img {
         margin-top: 15%;
     }
+    #workshop {
+        text-align: center !important;
+    }
+    #workshop img {
+        margin-bottom: 15% !important;
+    }
+    #customers {
+        text-align: center !important;
+    }
+    #customers img {
+        margin-top: 10% !important;
+    }
     #footer {
         text-align: center;
     }
@@ -137,6 +149,9 @@ a {
 
 /* WORKSHOP */
 
+#worshop {
+    padding-bottom: 10px !important;
+}
 
 
 /* ABOUT */
@@ -196,6 +211,17 @@ a {
 #customers .carousel-indicators {
     margin-bottom: -50px;
 }
+
+#customers .btn-magazine {
+    background-color: #001b2a !important;
+    color: goldenrod !important;
+}
+
+#customers .btn-magazine:hover {
+    background-color: transparent !important;
+    border:1px solid #001b2a !important;
+}
+
 
 /*CONTACT*/
 
